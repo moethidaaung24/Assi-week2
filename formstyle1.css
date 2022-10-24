@@ -1,0 +1,78 @@
+:root{
+    --W:white;
+    --R:red;
+    --B:black;
+    --G:green;
+    --GR:grey;
+    --BE:blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+background-color: var(--R);
+}
+.main{
+    /* display: grid;
+    place-items: center; */
+    text-align: center;
+    padding-top: 60px;
+   color: var(--W);
+   background-color: var(--B);
+   display: inline-block;
+   margin-left: 540px;
+   margin-top: 10px;
+   padding-left: 32px;
+   padding-right: 32px;
+   padding-bottom:110px;
+   border-radius: 25px;
+   overflow: scroll;
+}
+.sign{
+    background-color: var(--G);
+    height: 2.5rem;
+    border-radius: 15px;
+}
+.goo{
+    background-color: var(--GR);
+    height: 2.5rem;
+    border-radius: 15px;
+    font-size: 14px;
+    
+}
+.fac{
+    background-color: var(--GR);
+    height: 2.5rem;
+    border-radius: 15px;
+    font-size: 13.6px;
+}
+#icon1{
+    color: var(--R);
+}
+#icon2{
+    color: var(--BE);
+}
+.button {
+    align-items: center;
+    background-color: var(--GR);
+    border-radius: 999em;
+    color: #fff;
+    display: flex;
+    gap: 0.5em;
+    justify-content: center;
+    padding-block: 0.75em;
+    padding-inline: 1em;
+    transition: 0.3s;
+    margin-top: 30px;
+  }
+.button:focus,
+.button:hover {
+  background-color: #e96363;
+}
+
+.button--full {
+  inline-size: 100%;
+}
+.button--full{
+    color: var(--B);
+    font-size: 14px;
+    font-weight: bolder;
+}

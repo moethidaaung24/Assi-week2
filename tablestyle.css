@@ -1,0 +1,185 @@
+:root{
+    --GH:rgb(80, 69, 69);
+    --GL:rgba(189, 178, 178, 0.767);
+    --BG:rgb(0, 153, 255);
+    --AQ:aqua;
+    --W:white;
+    --P:rgb(23, 161, 199);
+    --R:rgb(212, 34, 117);
+    --M:rgb(153, 153, 26);
+}
+
+body{
+    background-color: var(--P);
+}
+.parent{
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px 150px 150px;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px;
+  text-align: center;
+  gap: 10px;
+  justify-content: center;
+  /* align-items: center; */
+ 
+  
+}
+.parent div{
+   border: 2px solid rgb(22, 20, 20); 
+   padding-top: 15px;
+}
+
+.item2{
+    background-color: var(--AQ);
+    
+}
+.item3{
+    background-color: var(--AQ);
+    
+}
+.item4{
+    background-color: var(--AQ);
+    
+}
+.item5{
+    background-color: var(--AQ);
+   
+}
+.item6{
+    background-color: var(--AQ);
+    
+}
+.item7{
+    background-color: var(--GH);
+    color: var(--W);
+    
+}
+.item1{
+    background-color: var(--R);
+    
+}
+.item1:hover{
+    opacity: 0.7;
+}
+.item9{
+    background-color: var(--GL);
+  
+    
+}
+.item11{
+    background-color: var(--GL);
+   
+}
+.item13{
+    background-color: var(--GH);
+    color: var(--W);
+    
+}
+.item15{
+    background-color: var(--GL);
+    
+}
+.item17{
+    background-color: var(--GL);
+    
+}
+.item19{
+    background-color: var(--GH);
+    color: var(--W);
+    
+}
+.item21{
+    background-color: var(--GL);
+    
+}
+.item23{
+    background-color: var(--GL);
+   
+}
+.item25{
+    background-color: var(--GH);
+    color: var(--W);
+   
+}
+.item27{
+    background-color: var(--GL);
+   
+}
+.item29{
+    background-color: var(--GL);
+   
+}
+.item31{
+    background-color: var(--GH);
+    color: var(--W);
+   
+}
+.item33{
+    background-color: var(--GL);
+
+}
+.item35{
+    background-color: var(--GL);
+    
+}
+.b{
+    background-color: var(--GH);
+    width: 59.68rem;
+    height: 2.6rem;
+    margin-top: 2rem;
+  margin-left: 200px;
+}
+.b:hover{
+    background-color: var(--GL);
+    transition: 1.5s;
+}
+
+.item2:hover{
+    background-color: var(--R);
+    transition: 0.5s;
+ 
+}
+.item3:hover{
+    background-color: var(--R);
+    transition: 0.5s;
+ 
+}
+.item4:hover{
+    background-color: var(--R);
+    transition: 0.5s;
+ 
+}
+.item5:hover{
+    background-color: var(--R);
+    transition: 0.5s;
+ 
+}
+.item6:hover{
+    background-color: var(--R);
+    transition: 0.5s;
+ 
+}
+.item7:hover{
+    background-color: var(--M);
+    transition: 0.5s;
+ 
+}
+.item13:hover{
+    background-color: var(--M);
+    transition: 0.5s;
+ 
+}
+.item19:hover{
+    background-color: var(--M);
+    transition: 0.5s;
+ 
+}
+.item25:hover{
+    background-color: var(--M);
+    transition: 0.5s;
+ 
+}
+.item31:hover{
+    background-color: var(--M);
+    transition: 0.5s;
+ 
+}
